@@ -1,0 +1,16 @@
+.menu {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.5rem;
+}
+
+.menu > * {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 500px) {
+  .menu {
+    flex-direction: column;
+  }
+}
